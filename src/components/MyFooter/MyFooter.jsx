@@ -35,11 +35,11 @@ const MyFooter = () => {
   };
 
   const socialLinks = [
-    { icon: <FaFacebookF />, name: "Facebook", url: "#" },
-    { icon: <FaTwitter />, name: "Twitter", url: "#" },
-    { icon: <FaInstagram />, name: "Instagram", url: "#" },
-    { icon: <FaLinkedinIn />, name: "LinkedIn", url: "#" },
-    { icon: <FaYoutube />, name: "YouTube", url: "#" },
+    { icon: <FaFacebookF />, name: "Facebook", },
+    { icon: <FaTwitter />, name: "Twitter",},
+    { icon: <FaInstagram />, name: "Instagram",  },
+    { icon: <FaLinkedinIn />, name: "LinkedIn",  },
+    { icon: <FaYoutube />, name: "YouTube",  },
   ];
 
   return (
@@ -110,8 +110,7 @@ const MyFooter = () => {
                   ))}
                 </ul>
               </div>
-
-                          </div>
+            </div>
 
             <div className="footer-contact">
               <h3>Hubungi Kami</h3>
@@ -122,11 +121,11 @@ const MyFooter = () => {
                 </div>
                 <div className="contact-item">
                   <FaPhone />
-                  <span>+62 812-3456-7890</span>
+                  <span>+62 857-2407-3570</span>
                 </div>
                 <div className="contact-item">
                   <FaMapMarkerAlt />
-                  <span>Jakarta, Indonesia</span>
+                  <span>Depok, Indonesia</span>
                 </div>
               </div>
 
@@ -154,8 +153,6 @@ const MyFooter = () => {
               <Link to="/privacy">Kebijakan Privasi</Link>
               <span className="separator">|</span>
               <Link to="/terms">Syarat & Ketentuan</Link>
-              <span className="separator">|</span>
-              <Link to="/cookies">Cookie Policy</Link>
             </div>
           </div>
         </div>

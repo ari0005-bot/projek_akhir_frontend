@@ -271,15 +271,7 @@ const OrganizDashboard = () => {
     );
   };
 
-  const handleWhatsAppContact = (p) => {
-    if (!p.userPhone) {
-      alert("Nomor tidak tersedia");
-      return;
-    }
-    const url = `https://wa.me/${p.userPhone}`;
-    window.open(url, "_blank");
-  };
-
+  
   const isUserRegistered = (eventId) => {
     const user = JSON.parse(localStorage.getItem("user"));
     if (!user) return false;
@@ -569,13 +561,7 @@ const OrganizDashboard = () => {
                                 Terima
                               </button>
                             )}
-                            <button
-                              className="btn-whatsapp"
-                              onClick={() => handleWhatsAppContact(p)}
-                            >
-                              WA
-                            </button>
-                          </div>
+                                                      </div>
                         </div>
                       </div>
                     ))

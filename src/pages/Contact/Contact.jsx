@@ -88,7 +88,7 @@ const Contact = () => {
 
   const teamMembers = [
     {
-      name: "Ahmad Rizki",
+      name: "Ry",
       role: "Community Manager",
       email: "ahmad@activisthub.id",
       avatar: <FaUserCircle />,
